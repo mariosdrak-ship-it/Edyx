@@ -1,0 +1,251 @@
+    edyx
+    Prompt για σενάρια βίντεο: Hook · Bridge · Value · CTA
+
+
+
+
+ Πώς το χρησιμοποιείς
+  • Αντιγράφεις το MASTER PROMPT (επόμενη σελίδα) σε Claude ή ChatGPT.
+  • Συμπληρώνεις κάθε [παρένθεση] με τις απαντήσεις του ερωτηματολογίου του πελάτη.
+  • Στις επόμενες σελίδες έχεις τη βιβλιοθήκη hooks και τα viral formats ανά κλάδο. Αν ο κλάδος
+     του πελάτη λείπει, πρόσθεσέ τον κάτω από το prompt με 3 formats.
+  • Μετά το πρώτο batch, πέρνα στο prompt τα στατιστικά (retention στα 3 δευτερόλεπτα,
+     προβολές, σχόλια) και ζήτα βελτίωση.
+  • Κανένα prompt δεν εγγυάται viral. Δοκίμαζε 2–3 hooks ανά θέμα και κράτα όποιο κρατά τον
+     κόσμο.
+
+
+ Η δομή σε μια ματιά
+ Μέρος              Χρόνος                   Ρόλος
+
+ HOOK               0–3 δευτ.                Σταματά το scroll. Ένα σαφές promise ή ένταση για τον ιδανικό
+                                             πελάτη.
+
+ BRIDGE             3–8 δευτ.                Δίνει λόγο να μείνει: επιβεβαιώνει το promise και ανοίγει ένα «loop»
+                                             περιέργειας.
+
+ VALUE              8–40 δευτ.               Η παράδοση: συμβουλή, επίδειξη, ιστορία ή απόδειξη. Μία ιδέα,
+                                             γρήγορα, με παραδείγματα.
+
+ CTA                τελευταία 3–5 δευτ.      Μία ενέργεια που συνδέεται με τον στόχο του πελάτη.
+
+
+
+
+edyx · Prompt σεναρίων: Hook · Bridge · Value · CTA                                                                 1
+ MASTER PROMPT (αντιγραφή και επικόλληση)
+   ROLE
+   You are the best short-form video scenario writer in the world. You have written hundreds of scripts that
+   earned millions of views for local and small businesses on TikTok, Instagram Reels, YouTube Shorts and
+   Facebook Reels. You understand human psychology, retention, and exactly what makes a person stop
+   scrolling, watch to the end and take action. You write for real businesses that need real customers, not
+   just views.
+
+   CLIENT BRIEF (from our questionnaire)
+   – Business name: [ ]
+   – Niche / industry: [ ]
+   – Location / market: [ ]
+   – Main products or services: [ ]
+   – Ideal customer (age, problems, desires, objections): [ ]
+   – Main goal (calls, bookings, store visits, online sales, followers): [ ]
+   – What makes them different (USPs): [ ]
+   – Proof (results, reviews, awards, years of experience, numbers): [ ]
+   – Brand voice (friendly, premium, funny, expert...): [ ]
+   – Competitors and what they do: [ ]
+   – Content the client likes / dislikes: [ ]
+   – Who is willing to appear on camera: [ ]
+   – Locations, props and equipment available for shooting: [ ]
+   – Platforms: [ ]
+   – Topics or claims to avoid: [ ]
+
+   TASK
+   Write [10] video scenarios for this client. Output language: natural, spoken Greek, the way real people talk
+   (not formal, not translated). Use English only for technical labels.
+
+   MANDATORY STRUCTURE: HOOK → BRIDGE → VALUE → CTA
+   – HOOK (0–3 sec): one line or one visual that stops the scroll. It must create curiosity, tension or a clear
+     promise for the exact target customer. Never start with a greeting, the business name or «γεια σας».
+   – BRIDGE (3–8 sec): connect the hook to the content and give a reason to stay. Confirm the promise,
+     add a small open loop («και το τρίτο είναι αυτό που κάνουν όλοι λάθος») or raise the stakes. Without a
+     bridge people leave right after the hook.
+   – VALUE (8–40 sec): deliver what the hook promised: a tip, a demonstration, a story, a transformation
+     or proof. One idea only. Fast, visual, concrete, with real examples, numbers and the client's own words.
+     Cut anything that does not earn its seconds.
+   – CTA (last 3–5 sec): one clear action tied to the client's goal (comment a keyword, call, book, visit,
+     save, send to a friend, follow for part 2) with a reason to act now. One CTA per video.
+
+   HOOK RULES
+   – For every scenario write 3 hook options (A, B, C), each using a different type from the HOOK LIBRARY,
+     and mark your recommended one.
+   – Each hook = spoken line (max 12 words) + on-screen text (max 7 words) + opening visual.
+   – Be specific. Numbers, named problems and real situations beat generic claims.
+   – Speak to ONE person («εσύ»), never to «ο κόσμος».
+   – Never promise results the client cannot honestly or legally deliver.
+
+   FORMAT RULES
+   – Pick the viral format for each scenario from the NICHE FORMAT LIBRARY for this client's niche. Use at
+     least 5 different formats across the set.
+
+
+
+
+edyx · Prompt σεναρίων: Hook · Bridge · Value · CTA                                                               2
+   – Mix content pillars: educational, trust/proof, behind the scenes, entertainment/trend, sales/offer. No
+     more than 3 scenarios from the same pillar.
+   – Include at least 2 scenarios that can be filmed with a phone in under 30 minutes and at least 2 «hero»
+     videos with more production.
+   – Use everything the client told us: their proof, story, personality, location and customers' words.
+
+   OUTPUT FORMAT (for each scenario)
+   – Title | Pillar | Viral format | Platform(s) | Length
+   – Hooks A / B / C (spoken + on-screen text + opening visual) → Recommended: _
+   – Bridge (spoken)
+   – Value: full script as a shot list (shot / what is said / on-screen text)
+   – CTA (spoken + on-screen text)
+   – Caption + 5 hashtags
+   – Filming notes: location, props, who is on camera, estimated shoot time
+   – Why this works: 1–2 sentences linking it to the client's goal and the customer's psychology
+
+   QUALITY CHECK (do this silently before answering)
+   – Would the target customer stop scrolling within 2 seconds?
+   – Is there a reason to stay after the hook (bridge)?
+   – Is there ONE clear idea and real value?
+   – Is the CTA single and specific?
+   – Does it sound like a real person talking, and can the client film it with the resources they have?
+   Rewrite every scenario that fails. Finish with a filming plan: group the scenarios into shoot days by
+   location and outfit.
+
+   NICHE FORMAT LIBRARY and HOOK LIBRARY
+   Use the libraries I paste below this prompt as your source of formats and hook types. Adapt them to the
+   client; do not copy examples word for word.
+
+ Μετά το prompt, κάνε επικόλληση και τις δύο βιβλιοθήκες των επόμενων σελίδων.
+
+
+
+
+edyx · Prompt σεναρίων: Hook · Bridge · Value · CTA                                                           3
+ Βιβλιοθήκη hooks (10 τύποι)
+ Τύπος                            Παράδειγμα (προσάρμοσέ το στον πελάτη)
+
+ 1. Κενό περιέργειας              «Κανείς δεν σου λέει γιατί το [προϊόν] σου χαλάει σε 6 μήνες.»
+
+ 2. Αντίθετη άποψη                «Σταμάτα να [κοινή συμβουλή]. Κάνεις το αντίθετο από αυτό που χρειάζεσαι.»
+
+ 3. Λάθος /                       «Τα 3 λάθη που σε κάνουν να πληρώνεις διπλά για [υπηρεσία].»
+ προειδοποίηση
+
+ 4. Αποτέλεσμα + χρόνος           «Από 0 σε 40 ραντεβού τον μήνα σε 60 μέρες. Δες πώς.»
+
+ 5. Ιστορία από τη μέση           «Ο πελάτης μπήκε και μου είπε: με έχουν γελάσει τρεις φορές.»
+
+ 6. Στόχευση κοινού               «Αν έχεις μαγαζί στην [πόλη], δες αυτό πριν το τέλος του μήνα.»
+
+ 7. Σπάσιμο μοτίβου               Ξεκινάς μέσα στη δράση: κάτι σπάει, πέφτει ή αλλάζει στο κάδρο μέσα στο
+ (οπτικό)                         πρώτο δευτερόλεπτο.
+
+ 8. Μυστικό του κλάδου            «Αυτό που δεν θα σου πει κανένας [επαγγελματίας του κλάδου].»
+
+ 9. Πριν / Μετά                   «Πριν και μετά: 45 λεπτά. Μόνο αυτό άλλαξα.»
+
+ 10. Πρόκληση / δοκιμή            «Δοκίμασα το φθηνό και το ακριβό [προϊόν]. Το αποτέλεσμα με σόκαρε.»
+
+
+
+ Viral formats ανά κλάδο
+ Κλάδος                 Viral formats                               Παραδείγματα hooks
+
+ Εστιατόριο /           Πίσω από την κουζίνα (ASMR                  «Αυτό το πιάτο δεν υπάρχει στον κατάλογο.
+ καφέ / bar             προετοιμασία). Πόσο κοστίζει                Ρώτα για αυτό.» · «Πόσο κοστίζει
+                        πραγματικά ένα πιάτο. Μυστικό πιάτο         πραγματικά ένα πιάτο των 12€;»
+                        εκτός καταλόγου.
+
+ Κομμωτήριο /           Transformation πριν/μετά με trending        «Τι κάνεις στα μαλλιά σου κάθε πρωί που τα
+ ομορφιά / νύχια        ήχο. Reveal στον καθρέφτη με                καταστρέφει;» · «Αυτό το χρώμα δεν θα σου
+                        αντίδραση πελάτη. Τι ζήτησε vs τι πήρε.     πάει ποτέ. Να γιατί.»
+
+ Γυμναστήριο /          Σωστή vs λάθος εκτέλεση άσκησης.            «Κάνεις αυτή την άσκηση λάθος εδώ και
+ personal trainer       Challenge 30 ημερών (σειρά). Μύθοι της      χρόνια.» · «3 κινήσεις, 10 λεπτά, καμία
+                        γυμναστικής.                                δικαιολογία.»
+
+ Ιατρείο /              Αλήθεια ή μύθος; Ρώτα τον γιατρό            «Βουρτσίζεις αμέσως μετά το πορτοκάλι;
+ οδοντίατρος / φ        (ερωτήσεις ασθενών). Τι γίνεται σε ένα      Μάλλον βλάπτεις το σμάλτο σου.» · «Μην
+ υσικοθεραπευτή         ραντεβού, βήμα βήμα. (Χωρίς                 κάνεις αυτό όταν πονάει η μέση σου.»
+ ς                      υποσχέσεις αποτελέσματος.)
+
+ Ακίνητα /              Τι σπίτι παίρνεις με Χ ευρώ (tour).         «Τι σπίτι αγοράζεις στη [περιοχή] με
+ ανακαινίσεις           Time-lapse ανακαίνισης πριν/μετά. Λάθη      150.000€;» · «3 ερωτήσεις πριν υπογράψεις
+                        αγοραστών.                                  προσύμφωνο.»
+
+ Τεχνικοί /             Satisfying καθάρισμα ή επισκευή. Τι         «Αυτό βρήκαμε μέσα στο [σημείο] του
+ συνεργεία /            βρήκαμε μέσα. Πώς καταλαβαίνεις ότι         πελάτη.» · «Πώς καταλαβαίνεις ότι ο
+ καθαριότητα            σε κοροϊδεύουν.                             τεχνικός σε κοροϊδεύει σε 10
+                                                                    δευτερόλεπτα.»
+
+ Δικηγόροι /            1 λάθος που κοστίζει (30 δευτ.).            «Αυτό το λάθος στη φορολογική σου
+ λογιστές /             Απαντάω σε σχόλια/ερωτήσεις. Μίνι case      κοστίζει εκατοντάδες ευρώ.» · «Τρεις
+ σύμβουλοι              study πελάτη (με άδεια).                    ερωτήσεις πριν υπογράψεις συμβόλαιο.»
+
+
+
+
+edyx · Prompt σεναρίων: Hook · Bridge · Value · CTA                                                              4
+ Κλάδος                 Viral formats                             Παραδείγματα hooks
+
+ Κατάστημα /            Πακετάρω παραγγελίες (ASMR). 3 τρόποι     «Αυτό το κομμάτι εξαντλήθηκε 3 φορές. Να
+ μόδα /                 να φορέσεις το ίδιο κομμάτι. Review       γιατί.» · «3 outfit από ένα μόνο παντελόνι.»
+ e-commerce             best-seller.
+
+ Εκπαίδευση /           Μάθημα σε 30 δευτερόλεπτα. Μύθοι και      «Μάθε αυτό σε 30 δευτερόλεπτα και δεν το
+ coaching /             λάθη. Μαθητής πριν/μετά (με άδεια).       ξεχνάς.» · «Γι' αυτό δεν μαθαίνεις αγγλικά
+ φροντιστήρια                                                     ακόμα.»
+
+ Ξενοδοχεία /           Room tour με τιμή. Κρυμμένα μέρη της      «Αυτό το μέρος στη [περιοχή] δεν το ξέρει
+ τουρισμός /            περιοχής. Μια μέρα με τον οικοδεσπότη.    κανείς.» · «Τι δωμάτιο πιάνεις με 80€ τη
+ ενοικιαζόμενα                                                    νύχτα;»
+
+
+
+ Τράπεζα Bridge και CTA
+ Bridge (3–8 δευτ.)                                       CTA (τέλος)
+
+ «Και δεν είναι αυτό το χειρότερο...»                     «Γράψε [ΛΕΞΗ] στα σχόλια και σου στέλνω
+                                                          [δώρο/οδηγό].»
+
+ «Πριν σου δείξω τη λύση, δες τι γίνεται συνήθως:»        «Στείλ' το σε κάποιον που το χρειάζεται.»
+
+ «Μείνε μέχρι το τέλος, γιατί το τρίτο αλλάζει τα         «Κάνε save για να το βρεις όταν το χρειαστείς.»
+ πάντα.»
+
+ «Ο λόγος είναι πιο απλός απ' όσο νομίζεις.»              «Κλείσε ραντεβού από το link στο προφίλ.»
+
+ «Αυτό το έμαθα με τον δύσκολο τρόπο.»                    «Ακολούθησε για το μέρος 2.»
+
+
+
+ Παράδειγμα συμπληρωμένου σεναρίου (οδοντιατρείο)
+ Τίτλος             Το λάθος με την οδοντόβουρτσα | Εκπαιδευτικό | «Αλήθεια ή μύθος;» | Reels / TikTok | 30
+                    δευτ.
+
+ Hooks              A (προτείνεται): «Βουρτσίζεις αμέσως μετά το πορτοκάλι; Μάλλον βλάπτεις το σμάλτο
+                    σου.» On-screen: «ΜΥΘΟΣ Ή ΑΛΗΘΕΙΑ;» Visual: ο γιατρός κρατά οδοντόβουρτσα και κάνει
+                    «Χ» στην κάμερα.
+                    B: «3 λάθη στο βούρτσισμα που βλέπω κάθε μέρα στο ιατρείο.»
+                    C: «Ο οδοντίατρός σου δεν θα σου το πει, γιατί...»
+
+ Bridge             «Και δεν είναι το μοναδικό λάθος. Σου δείχνω τα τρία που ακούω συνέχεια.»
+
+ Value              Shot 1: μετά από όξινα (πορτοκάλι, καφές, αναψυκτικό) περίμενε περίπου 30 λεπτά. Shot 2:
+                    μαλακή βούρτσα, χωρίς πίεση. Shot 3: το νήμα, εκεί πηγαίνουν οι περισσότερες τερηδόνες.
+
+ CTA                «Κάνε save και στείλ' το σε κάποιον που βουρτσίζει σαν να πλένει τηγάνι. Για ραντεβού, το
+                    link στο προφίλ.»
+
+ Γιατί              Στοχεύει σε κοινή καθημερινή συνήθεια, δίνει πρακτική αξία και οδηγεί σε ραντεβού με ένα
+ δουλεύει           βήμα.
+
+
+
+
+edyx · Prompt σεναρίων: Hook · Bridge · Value · CTA                                                              5
+
