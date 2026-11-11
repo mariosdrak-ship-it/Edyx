@@ -4,3 +4,8 @@ out
 .env*
 !.env.example
 .DS_Store
+data
+*.tsbuildinfo
+next-env.d.ts
+edyx-kit/assets/fonts
+edyx-kit/out
