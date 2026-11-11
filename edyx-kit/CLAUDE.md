@@ -14,7 +14,8 @@ Talk to the owner in the language he writes in (usually English with Greek words
 - `prompts/01..07` – copy-paste prompts: new carousel, caption, news post, weekly series, hooks, video scripts, Meta video ad.
 
 ## 1. Business details
-- **Brand:** Edyx · Instagram **@edyx.app** · website **edyx.gr** · Greek social media agency (based in Crete, clients across Greece).
+- **Brand:** Edyx · Instagram **@edyx.gr** · website **edyx.gr** · Greek social media agency (based in Crete, clients across Greece).
+- **Name rule (owner):** NEVER write «edyx.app» anywhere (slides, captions, bios, files). Always **edyx.gr**.
 - **Founders:** Μάριος Δρακουλάκης and his partner Βασίλης.
 - **History:** started as an AI video-editing app (pre-launch, «3 μήνες δωρεάν» waitlist), then **pivoted to a social media agency**. All new content is agency-focused. Never claim "first in Greece" (not verifiable).
 - **Partners:** GrowthMarketing (website company that collaborates with Edyx, logo available). **First client:** QualityPlug.
