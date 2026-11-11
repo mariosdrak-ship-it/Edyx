@@ -60,7 +60,7 @@ Owners of small/medium businesses in Greece (shops, cafés, salons, gyms, clinic
 - **CTA:** gold caps label «ΕΧΕΙΣ [JOB];» · «Επικοινώνησε *μαζί μας*» (bold + gold italic) · two light lines · **edyx.gr**.
 - Content for jobs = **3 video ideas** taken from the owner's niche format library (before/after, time-lapse, answers to questions, myths, behind the scenes, series/challenge, "what I found", tour, 3 questions before you sign...).
 - Every claim is generic/verifiable. No numbers about reach or sales. Add the disclaimer note for regulated jobs.
-- Check `knowledge/carousels_made.md`: **never repeat a job or a hook**. Jobs not done yet: νύχια/ινστιτούτα, κτηνίατροι, φούρνοι, φωτογράφοι, φροντιστήρια, ηλεκτρολόγοι/υδραυλικοί.
+- Check `knowledge/carousels_made.md`: **never repeat a job or a hook**. Jobs not done yet: οπτικά, ζαχαροπλαστεία, ενοικιάσεις αυτοκινήτων, σχολές οδηγών, φυσικοθεραπευτήρια (the older list was completed in TikTok batch 1, Nov 2026).
 
 ## 7. How to build a carousel (workflow)
 1. Pick job + hook (hook formula in `knowledge/hooks_library.md`).
