@@ -16,5 +16,7 @@
    c. TIKTOK: Higgsfield tiktok_prepare_publish works ONLY where the TikTok form widget shows
       (claude.ai in a browser). If the owner is not there, send him the 6 TikTok JPEGs (out/tiktok/)
       + the TikTok caption so he posts from the phone in 30 seconds.
+   Location (τοποθεσία): the publishing API cannot set it. Default location is Athens: remind the owner to add it
+      in the Instagram app (post → ⋯ → Edit → Add location) right after publishing.
    d. Space posts: max 2 per day per platform unless the owner says otherwise.
 6. LOG: move niches to carousels_made.md + hooks to hooks_library.md; add a row per platform to posted_log.md.
