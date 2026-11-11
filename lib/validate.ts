@@ -21,7 +21,7 @@ export function parseSlides(value: unknown): Slide[] | undefined {
 
 export function parseHashtags(value: unknown): string[] | undefined {
   if (!Array.isArray(value)) return undefined;
-  return value.filter((t): t is string => typeof t === "string").map((t) => t.replace(/^#/, "").replace(/\s+/g, "")).filter(Boolean).slice(0, 8);
+  return value.filter((t): t is string => typeof t === "string").map((t) => t.replace(/^#/, "").replace(/\s+/g, "")).filter(Boolean).slice(0, 5);
 }
 
 /** Applies a partial, untrusted settings update onto the current settings. */

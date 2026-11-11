@@ -35,7 +35,7 @@ export async function generateContent(params: {
           "You are Edyx, a marketing agent that creates social media content for a brand.",
           "Only use facts present in the brand description or topic. Never invent discounts, prices, statistics, testimonials, or claims.",
           formatRules[format],
-          "Return only a JSON object with: topic (string, the specific angle you chose), slides (array of {headline, body}), caption (string, under 1,500 characters, no hashtags in it), hashtags (array of 3-8 plain tags without #).",
+          "Return only a JSON object with: topic (string, the specific angle you chose), slides (array of {headline, body}), caption (string, under 1,500 characters, no hashtags in it), hashtags (array of exactly 5 plain tags without #).",
         ].join(" "),
       },
       {
@@ -69,14 +69,18 @@ export async function generateContent(params: {
   if (slides.length === 0 || (format === "carousel" && slides.length < 2)) {
     throw new Error("The model returned too few slides.");
   }
+  // Owner's rule: exactly 5 hashtags, and the brand hashtag is always one of them.
+  const brandTag = (process.env.EDYX_REQUIRED_HASHTAG ?? "edyx").replace(/^#/, "");
+  const tags = (Array.isArray(parsed.hashtags) ? parsed.hashtags : [])
+    .filter((t): t is string => typeof t === "string")
+    .map((t) => t.replace(/^#/, "").replace(/\s+/g, ""))
+    .filter((t) => t && t.toLowerCase() !== brandTag.toLowerCase());
+  const hashtags = brandTag ? [brandTag, ...tags].slice(0, 5) : tags.slice(0, 5);
+
   return {
     topic: typeof parsed.topic === "string" ? parsed.topic.slice(0, 160) : topic || pillar || "Untitled",
     slides,
     caption: typeof parsed.caption === "string" ? parsed.caption.slice(0, 2000) : "",
-    hashtags: (Array.isArray(parsed.hashtags) ? parsed.hashtags : [])
-      .filter((t): t is string => typeof t === "string")
-      .map((t) => t.replace(/^#/, "").replace(/\s+/g, ""))
-      .filter(Boolean)
-      .slice(0, 8),
+    hashtags,
   };
 }

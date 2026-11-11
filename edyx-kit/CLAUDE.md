@@ -77,7 +77,7 @@ Owners of small/medium businesses in Greece (shops, cafés, salons, gyms, clinic
 - Do not generate fake "client" photos. Mention when a photo is a placeholder.
 
 ## 9. Captions
-See `prompts/02_caption.md`. Instagram: hook line → 2 lines → 1️⃣2️⃣3️⃣ → warning → offer sentence → 📌 save → 📩 CTA + «Link στο bio» → 8-10 hashtags. TikTok: hook, numbered list, `edyx.gr`, 5 hashtags. First line of every caption = the hook.
+See `prompts/02_caption.md`. Instagram: hook line → 2 lines → 1️⃣2️⃣3️⃣ → warning → offer sentence → 📌 save → 📩 CTA + «Link στο bio» → **exactly 5 hashtags, one of them always #edyx**. Use the professional decorated layout in `prompts/02_caption.md` (thin ━ dividers, ▸ bullets, emoji numbers). TikTok: hook, numbered list, `edyx.gr`, 5 hashtags incl. #edyx. First line of every caption = the hook.
 
 ## 10. News and series
 Prompts: `prompts/03_news_post.md`, `prompts/04_weekly_series.md`. Search the news first, cite outlet + date on the slide, keep only what the source says, no tragedies, «φέρεται» for real cases, "not legal advice" for legal topics. Dated content (Black Friday 27/11/2026, Δώρο Χριστουγέννων in December, ν. 5316/2026 pay transparency from 1/11/2026) must be re-checked before posting.
@@ -103,4 +103,4 @@ Prompts: `prompts/03_news_post.md`, `prompts/04_weekly_series.md`. Search the ne
 [ ] Correct Greek accents/grammar, no typos, gender-neutral  [ ] No dots, no stars, hand only on slide 1, logo bottom-left
 [ ] Text readable on every slide (dark band, thick white body)  [ ] No other brand/watermark/face visible
 [ ] No invented numbers, no promises, disclaimers present where needed  [ ] Dated facts re-verified, source cited
-[ ] Caption written (hook first line, hashtags)  [ ] Summary + "owner must verify" list delivered
+[ ] Caption written (hook first line, decorated layout, exactly 5 hashtags incl. #edyx)  [ ] Summary + "owner must verify" list delivered
