@@ -11,6 +11,8 @@ Talk to the owner in the language he writes in (usually English with Greek words
 - `photos/<spec-name>/{cover,bridge,v1,v2,v3,cta}.jpg` – the photos the owner gives you.
 - `knowledge/hooks_library.md` – hook formula, 20 hooks, hooks already used. `knowledge/carousels_made.md` – everything made so far.
 - `knowledge/source_edyx_hooks_guide.txt`, `knowledge/source_edyx_scenario_prompt.txt` – the owner's own guides (hook types, master video prompt).
+- `prompts/00_batch.md` – the batch workflow («φτιάξε X carousels»). `kit/batch.py` – builds many specs at once.
+- `knowledge/niches_backlog.md` – niches still to do. `knowledge/posted_log.md` – what went live.
 - `prompts/01..07` – copy-paste prompts: new carousel, caption, news post, weekly series, hooks, video scripts, Meta video ad.
 
 ## 1. Business details
@@ -97,6 +99,13 @@ Prompts: `prompts/03_news_post.md`, `prompts/04_weekly_series.md`. Search the ne
 - Third-party logos (tools posts): add «Τα λογότυπα ανήκουν στις εταιρείες τους. Δεν είμαστε συνεργάτες τους.»
 - Do not store or write the owner's personal details (age, school, address) in any asset or file.
 - If the owner asks for something that breaks these rules (e.g. a guaranteed result), say no kindly and offer the honest alternative.
+
+## 13a. Batch command + publishing (owner's standard workflow)
+When the owner says «φτιάξε X carousels» (or "make X carousels"): follow `prompts/00_batch.md` exactly.
+New niches every time (`knowledge/niches_backlog.md`), preview → owner's OK → upload → publish → log (`knowledge/posted_log.md`).
+- Instagram (edyx.gr) publishes automatically through Windsor after the OK.
+- TikTok via Higgsfield needs the TikTok form widget (claude.ai in a browser); otherwise send the owner the TikTok JPEGs + caption.
+- NEVER publish anything without the owner's explicit OK for that post.
 
 ## 13. Quality checklist before you deliver
 [ ] New job and new hook (not in carousels_made.md)  [ ] Hook ≤12 words, one problem, action not result
